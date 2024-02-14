@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finance Data Viewer</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="Logo.png" alt="Logo" class="logo">
+            <h1>BSF Strategy Peer Analysis Tool</h1>
+        </header>
+        <!-- Item Source 1 Dropdown -->
+        <div class="dropdown-container">
+            <label for="statementType">
+                <b>Item Source 1:</b>
+            </label>
+            <select id="statementType">
+                <option value="Income_Statement">Income Statement</option>
+                <option value="Balance_Sheet">Balance Sheet</option>
+                <option value="Ratios">Ratios</option>
+            </select>
+            <div class="dropdown-container">
+                <label for="metric">
+                    <b>Metric 1:</b>
+                </label>
+                <select id="metric"></select>
+            </div>
+            <div class="dropdown-container">
+                <label>
+                    <b>Period Type:</b>
+                </label>
+                <select id="periodicity">
+                    <option value="Yearly">Yearly</option>
+                    <option value="Quarterly">Quarterly</option>
+                </select>
+            </div>
+        </div>
+        <!-- Metric 1 Dropdown -->
+        <!-- Period Type Dropdown -->
+        <!-- Start Period Dropdown -->
+        <div class="dropdown-container">
+            <label>
+                <b>Start Period:</b>
+            </label>
+            <select id="startPeriod"></select>
+        </div>
+        <!-- End Period Dropdown -->
+        <div class="dropdown-container">
+            <label>
+                <b>End Period:</b>
+            </label>
+            <select id="endPeriod"></select>
+        </div>
+        <!-- Fetch and Display Data Button -->
+        <div class="dropdown-container">
+            <button id="fetchDataButton">Show Data</button>
+        </div>
+        <!-- Calculator Mode Toggle -->
+        <div class="dropdown-container">
+            <label for="calculatorModeToggle">
+                <b>Calculator Mode:</b>
+            </label>
+            <input type="checkbox" id="calculatorModeToggle">
+        </div>
+        <!-- Additional Dropdowns for Calculator Mode -->
+        <div id="calculatorModeOptions" style="display: none;">
+            <!-- Item Source 2 Dropdown -->
+            <div class="dropdown-container">
+                <label for="statementType2">
+                    <b>Item Source 2:</b>
+                </label>
+                <select id="statementType2">
+                    <!-- Options will be added dynamically -->
+                </select>
+            </div>
+            <!-- Metric 2 Dropdown -->
+            <div class="dropdown-container">
+                <label for="metric2">
+                    <b>Metric 2:</b>
+                </label>
+                <select id="metric2">
+                    <!-- Options will be added dynamically -->
+                </select>
+            </div>
+            <!-- Operation Dropdown -->
+            <div class="dropdown-container">
+                <label for="operation">
+                    <b>Operation:</b>
+                </label>
+                <select id="operation">
+                    <option value="percentageOf">Percentage Of</option>
+                    <option value="multiply">Multiply</option>
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                </select>
+            </div>
+        </div>
+        <!-- Data Table -->
+        <table id="dataTable">
+            <thead>
+                <!-- Header row will be added dynamically here -->
+            </thead>
+            <tbody>
+                <!-- Data rows will be added dynamically here -->
+            </tbody>
+        </table>
+        <!-- Include script.js file -->
+        <script src="script.js"></script>
+    </body>
+</html>

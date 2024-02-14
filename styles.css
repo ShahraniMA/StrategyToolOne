@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #fefefe;
+  text-align: center;
+  padding: 20px 0;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.row-10th {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+/* Add the new CSS rules here */
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+#fetchDataButton {
+  margin-bottom: 10px;
+}
+.dropdown-container label {
+  margin-right: 10px;
+}
+
+/* New CSS */
+header, .top-part {
+  background-color: darkblue;
+  color: white;
+}
+
+/* New CSS */
+header {
+  display: flex;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px; /* Adjust this value to change the size of the logo */
+  margin-right: 20px;
+}

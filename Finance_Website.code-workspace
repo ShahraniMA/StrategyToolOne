@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cody.chat.preInstruction": "My goal is to build a website that displays and maninuplates financial data that I have curated. I have the main directory wit index.html, script.js and style.css. Then I have the sub folder Data which has six json files Income_Statement_Y.json Balance_Sheet_Y.json Ratios_Y Income_Statement_Q.json Balance_Sheet_Q.json Ratios_Q (ends with Y means yearly data ends with Q means quarterly data). The following is an example of how the data is structured [{\"Bank\":\"BSF\",\"Tickeer\":\"BSFR AB Equity\",\"Item Name\":\"Interest Income\",\"Formula\":\"IS_INT_INC\",\"Q1_2010\":837.594,\"Q2_2010\" (this is from the quarterly files but the yearly files are the same except with 20XX instead of QX_20XX. When giving me code to add or edit, say which line I need to put it in I have very if little programming experience "
+	}
+}
